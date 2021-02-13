@@ -26,7 +26,7 @@
   "content_scripts": [
     {
       "matches": [
-        "https://instagram.com/explore/tags/*"
+        "https://www.instagram.com/explore/tags/*"
       ],
       "css": [
         "src/inject/inject.css"
@@ -34,7 +34,7 @@
     },
     {
       "matches": [
-        "https://instagram.com/explore/tags/*"
+        "https://www.instagram.com/explore/tags/*"
       ],
       "js": [
         "src/inject/inject.js"
