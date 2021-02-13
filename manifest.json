@@ -34,7 +34,7 @@
     },
     {
       "matches": [
-        "https://www.google.com/*"
+        "https://instagram.com/explore/tags/*"
       ],
       "js": [
         "src/inject/inject.js"
