@@ -5,6 +5,6 @@ document.getElementById('openIGinNewTabForm').onsubmit = event => {
 }
 
 const openLinkInNewTab = (hashtag) => {
-        var newURL = `http://instagram.com/explore/tags/${hashtag}`;
+        var newURL = `http://instagram.com/explore/tags/${hashtag}/#automate`;
         chrome.tabs.create({ url: newURL });
 }
